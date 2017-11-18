@@ -1,8 +1,6 @@
 env:
   global:
-  - VOTE_REPO=zulyian/tek-voting-vote
-  - RESULT_REPO=zulyian/tek-voting-result
-  - WORKER_REPO=zulyian/tek-voting-worker
+  - VOTE_REPO=zulyian/tek-votingapp-redis-vote
   - COMMIT=${TRAVIS_COMMIT::8}
 
 
